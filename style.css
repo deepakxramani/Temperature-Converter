@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(to right, #360033, #0b8793); */
+    background: url('./assets/wallpaperflare.com_wallpaper\ \(18\).jpg');
+    background-size: cover;
+}
+
+
+.box{
+    margin: auto;
+    width: 70%;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px #272626;
+    backdrop-filter: blur(20px);
+    color: white;
+}
+
+.box h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 2.5rem;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item1{
+    margin-bottom: 50px;
+}
+.item2{
+    margin-top: 100px;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    color: black;
+    border: 4px solid cyan;
+    background-color: white;
+    box-shadow: 0px 5px 10px #000000;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+}
+
+#result1{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+}
+
+#result2{
+    font-size: 2.5rem;
+    text-align: center;
+    color:white;
+    position: relative;
+    top: 80px;
+}

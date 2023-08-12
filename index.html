@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./assets/thermometer-icon-colorful-free-png.png"/>
+</head>
+<body>
+    
+<div class="container">
+
+    <div class="box">
+        <h1>Temperature Converter</h1>
+        <div class="items">
+            <div class="item1">
+            <input type="number" placeholder="Celcius" id="celcius" class="input" onchange="celToFah()">
+        </div>
+    
+        <div class="item2">
+            <input type="number" placeholder="Fahrenheit" id="fahrenheit" class="input" onchange="fahToCel()">
+        </div>
+        
+        </div>
+        <h3 id="result1"></h3>
+        <h3 id="result2"></h3>
+    </div>
+
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
